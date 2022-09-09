@@ -1,1 +1,1 @@
-This is Repository is for C Programming Language
+This Repository is for C Programming Language
