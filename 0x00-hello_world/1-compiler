@@ -1,0 +1,7 @@
+#!/bin/bash
+
+/** The code that compiles
+ * C file but does not link
+ */
+
+gcc -c $CFILE -o $CFILE.o\
