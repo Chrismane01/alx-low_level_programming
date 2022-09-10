@@ -1,15 +1,14 @@
+#include <stdio.h>
 /**
  * main - Entry point
  * Description: this is the first function C program.
  * it is responsible for starting the execution and termination of program.
- * Return: Always 0 (Success)
+ * Return:always 0
  */
 int main(void)
 {
-    char Mystr[100] = "Programming is like building a multilingual puzzle\n";
-    puts(Mystr);
-    
-    return (0);
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
  
 
