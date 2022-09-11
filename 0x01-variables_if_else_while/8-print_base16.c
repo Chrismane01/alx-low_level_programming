@@ -18,7 +18,7 @@ char alpha;
 
 /* function for the numerical numbers of base 16 */
 
-for (num = 0; num <= 9; num++)
+for (num = '0'; num <= '9'; num++)
 putchar(num);
 
 /* function for the alphabetical letters of base 16 */
