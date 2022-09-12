@@ -17,15 +17,14 @@ for (num = '0'; num < '9'; num++)
 for (numm = num + 1; numm <= '9'; numm++)
 {
 if (numm != num)
-{ 
+{
 putchar(num);
 
 putchar(numm);
 
-if (num == '8' && numm =='9')
+if (num == '8' && numm == '9')
 
 continue;
- 
 
 putchar(',');
 
