@@ -7,7 +7,7 @@
  * Description: This program print if the number is
  * positive, zero, or negative
  *
- * Result: 0
+ * Return: 0
  */
 int main(void)
 {
