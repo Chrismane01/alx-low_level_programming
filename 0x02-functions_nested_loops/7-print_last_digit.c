@@ -2,7 +2,10 @@
 /**
  * print_last-digit - This function prints the
  * last digit of a given number
- *
+
+ * Description: This function prints the last digit 
+ * of a given number
+
  * @r: integer input
  *
  * Return: last digit of number r
