@@ -7,29 +7,30 @@
 int main(void)
 {
 
-long int a = 1, b = 2;
+int i;
 
-long int c = 3;
+long int fibonacci[50];
 
-long int d;
+fibonacci[0] = 1;
 
-printf("%ld, ", a);
+fibonacci[1] = 2;
 
-printf("%ld, ", b);
+printf("%ld, %ld, ", fibonacci[0], fibonacci[1]);
 
-for (d = 3; d < 50; d++)
+for (i = 3; i < 50; i++)
 {
 
-printf("%ld", c);
+fibonacci[i] = fibonacci[i - 1] + fibonacci[1 - 2];
 
-a = b;
+if (i == 49)
 
-b = c;
+printf("%ld\n", fibonacci[i]);
 
-c = a + b;
+else
+
+printf("%ld, ", fibonacci[i]);
+
 }
-
-printf("ld\n", c);
 
 return (0);
 
