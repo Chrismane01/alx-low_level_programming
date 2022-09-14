@@ -1,13 +1,14 @@
 #include "main.h"
 /**
- * add - add two integers
- * @a:an integer a
- * @b:an integer b
+ * add - Adds two integers
+ * @num1: first integer to be added
+ *
+ * @num2: second integer to be added
  *
  * return: Result to addition of a and b
  *
  */
-int add(int a, int b)
+int add(int num1, int num2)
 {
-return (a + b);
+return (num1 + num2);
 }
