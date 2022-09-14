@@ -6,31 +6,36 @@
  */
 int main(void)
 {
-int inc;
 
-unsigned long n1 = 0;
+long int = a, b, c, d;
 
-unsigned long n2 = 1;
+a = 1;
 
-unsigned long n3;
+b = 2;
 
-for (inc = 0; inc < 50; inc++)
+c = 3
+
+printf("%ld, ", a);
+
+printf("%ld, ", b);
+
+
+
+for (d = 3; d < 50; d++)
 {
-n3 = n1 + n2;
 
-printf("%lu", n3);
 
-n1 = n2;
+printf("%ld", c);
 
-n2 = n3;
+a = b;
 
-if (inc == 49)
+b = c;
 
-printf("\n");
-
-else
-
-printf(",");
+c = a + b;
 }
+
+printf("ld\n", c);
+
 return (0);
+
 }
