@@ -1,4 +1,4 @@
-#inclue "main.h"
+#include "main.h"
 /**
  * main- prints putchar
  *
@@ -7,11 +7,13 @@
 
 int main(void)
 {
-/* variable declaration */
+  _putchar('_');
+  _putchar('p');
+  _putchar('u');
+  -putchar('t');
+  _putchar('c');
+  _putchar('h');
+  _putchar('a');
+  _putchar('r')
 
-char c = "_putchar"
-
-putchar(c);
-
-putchar('\n');
 }
