@@ -24,7 +24,7 @@ fibonacci[i] = fibonacci[i - 1] + fibonacci[1 - 2];
 
 if (i == 49)
 
-printf("%ld\n", fibonacci[i]);
+printf("%ld", fibonacci[i]);
 
 else
 
