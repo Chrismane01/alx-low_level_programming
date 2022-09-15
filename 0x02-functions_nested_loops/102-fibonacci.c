@@ -29,9 +29,8 @@ printf("\n");
 
 else
    
-print(",");
+printf(",");
  
-else
    
 }
 
