@@ -16,7 +16,7 @@ int minutes = 0;
 
 int hours_remainder;
 
-int min_remainder;
+int mins_remainder;
 
 while (hours <= 23)
 {
