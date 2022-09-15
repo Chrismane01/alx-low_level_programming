@@ -7,33 +7,38 @@
 int main(void)
 {
 
-int inc;
-unsigned long n1 = 0;
-unsigned long n2 = 1;
-unsigned long n3;
- 
-for (inc = 3; inc < 50; inc++)
+long a = 0;
+long b = 1;
+long n = 3;
+
+printf("%li,", a)
+
+printf("%li,", b)
+
+while (n < 50)
+
 {
-n3 = n1 + n2;
- 
+long fib = a + b;
 
-printf("%lu", n3);
+printf("%li,". fib);
 
-n1 = n2;
+a = b;
 
-n2 = n3;
+b = fib;
 
-if (inc == 49)
-   
-printf("\n");
-
-else
-   
-printf(",");
- 
-   
+n++;
 }
 
-return (0);
+while (n == 50)
 
+{
+long fib = a + b;
+
+printf("%li\n", fib);
+
+a = b;
+b = fib;
+n++;
+}
+return (0);
 }
