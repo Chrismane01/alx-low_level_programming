@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * isdigit - A function that checks for 
+ * isdigit - A function that checks for
  * a digit (0 through 9)
  * @c: An input integer
  *
@@ -11,12 +11,16 @@
 
 int _isdigit(int c)
 {
-if (c >= 0 && c <= 9)
+
+if (c >= '0' && c <= '9')
 {
+
 return (1);
+
 }
 else
 {
+
 return (0);
 }
 }
