@@ -10,12 +10,17 @@
 
 int _isdigit(int c)
 {
-if (c >= "0" && c <= "9")
+char i = '0';
+int isdigit = 0;
+  
+for (; i <= '9'; i++)
 {
-return (1);
-}
-else
+if (i == c)
 {
-return (0);
+isdigit = 1;
+break;
 }
+}
+
+return (isdigit);
 }
