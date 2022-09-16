@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * print_number - print integers
@@ -13,7 +13,7 @@ unsigned int num;
 if (n < 0)
 {
 num = -n;
-_putchar('-');
+_putchar('_');
 }
 else
 {
