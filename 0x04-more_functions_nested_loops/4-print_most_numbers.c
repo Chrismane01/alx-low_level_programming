@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * print_most_numbers - a function that prints numbers from 0-9
- * Do not print 2 and 4.
- * followed by a new line.
+ * print_most_numbers - prints 013566789\n
+ *
  * Return: void
  */
 
@@ -14,7 +13,7 @@ char c;
 for (c = '0'; c <= '9'; c++)
 {
 if (!(c == '2' || c == '4')
-_putchar(i);
+_putchar(c);
 }
 _putchar('\n');
 }
