@@ -10,7 +10,8 @@
 void swap_int(int *a, int *b)
 {
 
-/* declaration of third variable */
+/* declaration of the third variable */
+
 int c;
 
 
@@ -18,6 +19,6 @@ c = *a;
 
 *a = *b;
 
-*b = *c;
+*b = c;
 
 }
