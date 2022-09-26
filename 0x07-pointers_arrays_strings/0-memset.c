@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * _memeset - fills the memory with a constant byte
+ * _memset - fills the memory with a constant byte
  *
  * @s: pointer to memory area to fill
  * @n: the number of bytes to fill
  * @b: constant byte
- *
  * Return: a pointer to the memory area @s
  */
 
@@ -16,7 +15,9 @@ unsigned int i;
 
 for (i = 0; i < n; i++)
 {
+
 s[i] = b;
+
 }
 return (s);
 }
