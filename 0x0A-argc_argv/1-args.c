@@ -10,9 +10,8 @@
 
 int main(int argc, char *argv[])
 {
-int i = 0;
 
-if (i >= 0)
+if (argv[0])
 {
 printf("%d\n", argc - 1);
 
