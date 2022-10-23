@@ -23,7 +23,6 @@ return (i);
  * @str: string to add to the new node
  * Return: pointer to the new node
  */
-
 list_t *add_node(list_t **head, const char *str)
 {
 list_t *new;
